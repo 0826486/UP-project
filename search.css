@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'HakgyoansimPuzzleTTF-Outline';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408-5@1.0/HakgyoansimPuzzleTTF-Outline.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ownglyph_kimkonghae';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2408@1.0/Ownglyph_kimkonghae.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #CDE8E5;
+}
+
+h1 {
+    margin-top: 40px;
+    margin-left: 50px;
+    font-family: 'HakgyoansimPuzzleTTF-Outline';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.menubar {
+    position: relative;
+    top: -58px;
+    text-align: right;
+    right: 36px;
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 23px;
+}
+
+.menubar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar li {
+    display: inline; 
+    margin-right: 20px; 
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    margin-top: -25px;
+    padding: 18px;
+    background-color: #EEF7FF; 
+    border-radius: 7px;
+    width: 80%; 
+    max-width: 550px; 
+}
+
+.search-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0);
+    color: #000;
+    border-radius: 15px; 
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.bi-search {
+    color: #256882;
+    font-size: 24px;
+    transform: translateX(-15px);
+}
