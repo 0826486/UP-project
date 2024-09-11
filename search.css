@@ -82,6 +82,34 @@ h1 {
     transform: translateX(-15px);
 }
 
+/* .tmi-container {
+    color: #08445B;
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 3.0;
+    padding-left: 450px;
+}
+
+.tmi2-container {
+    color: #08445B;
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 3.0;
+} */
+
+.tmi-wrapper {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.tmi-container, .tmi2-container {
+    width: 48%;
+}
+
 .tmi-container {
     color: #08445B;
     font-family: 'Ownglyph_kimkonghae';
@@ -90,4 +118,14 @@ h1 {
     font-size: 20px;
     line-height: 3.0;
     padding-left: 450px;
+}
+
+.tmi2-container {
+    color: #08445B;
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 3.0;
+    padding-right: 290px;
 }
