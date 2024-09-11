@@ -81,3 +81,13 @@ h1 {
     font-size: 24px;
     transform: translateX(-15px);
 }
+
+.tmi-container {
+    color: #08445B;
+    font-family: 'Ownglyph_kimkonghae';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 3.0;
+    padding-left: 450px;
+}
