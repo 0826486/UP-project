@@ -26,6 +26,20 @@ h1 {
     font-style: normal;
 }
 
+a {
+    color: inherit; /* 부모 요소의 색상을 따름 (h1, li 등) */
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+a:hover {
+    text-decoration: none; /* 호버 시에도 밑줄 제거 */
+}
+
+.menubar ul li {
+    display: inline; /* 메뉴 항목을 한 줄에 배치 */
+    margin-right: 20px; /* 항목 간의 간격 */
+}
+
 .menubar {
     position: relative;
     top: -58px;
