@@ -194,3 +194,36 @@ a:hover {
     z-index: 1; 
     margin-top: 20px;
 }
+
+.box4-container {
+    position: relative;
+    width: 180px; /* 카드 너비 설정 */
+    height: 250px; /* 카드 높이 설정 */
+    margin: 20px auto; /* 가운데 정렬 */
+    background-color: #EEF7FF; /* 박스 배경 색상 */
+    border-radius: 15px; /* 박스 모서리 둥글게 */
+    padding: 20px;
+    text-align: center; 
+    margin-top: 50px;
+    right: 290px;
+}
+
+.box4-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #E0F3FA; 
+    border-radius: 15px;
+    z-index: 0;
+}
+
+.profile-img4 {
+    position: relative;
+    width: 170px; /* 이미지 크기 */
+    height: 120px; /* 이미지 크기 */
+    object-fit: cover;
+    z-index: 1; 
+    margin-top: 20px;
+}
